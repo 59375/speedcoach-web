@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/2.CaYfOlLa.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CnGv0LyQ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/gahtHVE3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BQRDh3v0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CT-bTvTE.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DRtqZOsq.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CQvfskCT.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BHj9a04c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CawGr_cT.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.GZvaGcnB.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BrFjZBNW.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DxmHirZv.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CfjghQFM.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BI9lVdIp.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BIHEsj5W.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[--><!----><!----><div class="wrapper svelte-morfbs"><div style="margin-bottom: 8px; display: flex; align-items: center; flex-wrap: wrap; gap: 4px"><input type="file" accept=".csv" class="svelte-morfbs"/> <label>Prefix:<input type="text" value="roi_report" class="svelte-morfbs"/></label> <button class="svelte-morfbs">Add ROI</button> <button class="svelte-morfbs">Remove ROI</button> <button class="svelte-morfbs">PDF</button> <button class="svelte-morfbs">PNG</button> <button class="svelte-morfbs">TSV</button> <span style="margin-left: auto; font-size: 12px; color: #ccc">Y Range: —</span></div> <div id="plot" style="width: 100%; height: 480px"></div> <table id="statTable" class="svelte-morfbs"><thead><tr><th class="svelte-morfbs">ROI #</th><th class="svelte-morfbs">Avg Rate</th><th class="svelte-morfbs">Avg Split</th><th class="svelte-morfbs">Dist (m)</th><th class="svelte-morfbs">Time (s)</th></tr></thead><tbody><!--[--><!--]--></tbody></table></div><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_z71qse = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/speedcoach-web"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CnGv0LyQ.js"),
+						import("./_app/immutable/entry/app.DRtqZOsq.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
