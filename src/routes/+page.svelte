@@ -9,7 +9,7 @@ import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
 
 /*──────────── パスワード ───────────*/
-if (browser && localStorage.getItem('sc_pw_ok') !== '1') goto('/password');
+if (browser && localStorage.getItem('sc_pw_ok') !== '1') goto('speedcoach_web/password');
 
 /*───────────────── Utils ─────────────────*/
 const timeStrToSec = (txt: any): number => {
